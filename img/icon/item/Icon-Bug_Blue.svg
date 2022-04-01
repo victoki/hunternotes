@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="75" height="75">
+	<title>Icon-Bug_Blue-svg</title>
+	<defs>
+		<image width="44" height="48" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAwBAMAAACYvoXSAAAAAXNSR0IB2cksfwAAABJQTFRFAAAAAAAAe5LPe5LPnLr+nLr+fnZfowAAAAZ0Uk5T/wD/AAD/eWVFIQAAARZJREFUeJzl1MERgyAQBdBv1Lt04FgBMzSQAwVwof9Wsv8vECUlZDNh4LGjC4oAEEI42FhgYeOxPPkQXiewprgmC2sj8LrQGhuRbb4lHrjsJ9GchgtCY16Ffw3Dl3mfX/aiJs5vVAtseeKdXCbeUCwdO953tkIruWoZnbmiqtBaOrPfmBmdow0aX+fa+WSxnZFeztqrW9gVjaMK+YZlrcbJOvdKLCmR47NASxYnTJGc06xidusITaiSH1697gu1X6GqFK1y5rFV3NYC7NpaPLii7fjg5A/S2/R3vHcud47ozEM1WOnk4uehMw9D4dTW+BBn+GlAFi96uYzH2SGf/iYaZz0bZHJ7V/lV8A9AGL0+4GhpnwngA2GLeM36iekrAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="img1" href="#img1" transform="matrix(1,0,0,1,3,1)"/>
+</svg>

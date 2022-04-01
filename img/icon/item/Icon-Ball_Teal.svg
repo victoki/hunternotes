@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17" width="75" height="75">
+	<title>Icon-Ball_Teal-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #52ebc7;stroke: #000000;stroke-linejoin:round;stroke-width: 0.529 } 
+	</style>
+	<g id="layer1">
+		<path id="path1033" fill-rule="evenodd" class="shp0" d="M7.94 1.32L7.14 6.09L2.65 4.23L2.12 4.23L2.12 5.03L5.82 8.47L2.12 11.91L2.12 12.7L2.65 12.7L7.14 10.85L7.94 15.61L8.47 15.61L9 15.61L9.79 10.85L14.29 12.7L14.82 12.7L14.82 11.91L11.11 8.47L14.82 5.03L14.82 4.23L14.29 4.23L9.79 6.09L9 1.32L8.47 1.32L7.94 1.32Z" />
+		<path id="path1050" fill-rule="evenodd" class="shp0" d="M5.82 3.44L6.35 2.91L6.35 1.32L5.03 1.32L3.97 2.38L3.97 3.44L5.82 3.44Z" />
+		<path id="path1052" fill-rule="evenodd" class="shp0" d="M1.06 7.14L1.06 8.47L1.06 9.79L1.85 9.79L2.91 8.73L2.91 8.47L2.91 8.2L1.85 7.14L1.06 7.14Z" />
+		<path id="path1050-7" fill-rule="evenodd" class="shp0" d="M5.82 13.49L6.35 14.02L6.35 15.61L5.03 15.61L3.97 14.55L3.97 13.49L5.82 13.49Z" />
+		<path id="path1050-5" fill-rule="evenodd" class="shp0" d="M11.11 3.44L10.58 2.91L10.58 1.32L11.91 1.32L12.96 2.38L12.96 3.44L11.11 3.44Z" />
+		<path id="path1052-1" fill-rule="evenodd" class="shp0" d="M15.88 7.14L15.88 8.47L15.88 9.79L15.08 9.79L14.02 8.73L14.02 8.47L14.02 8.2L15.08 7.14L15.88 7.14Z" />
+		<path id="path1050-7-0" fill-rule="evenodd" class="shp0" d="M11.11 13.49L10.58 14.02L10.58 15.61L11.91 15.61L12.96 14.55L12.96 13.49L11.11 13.49Z" />
+	</g>
+</svg>

@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17" width="75" height="75">
+	<title>Icon-Tail_Teal-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #adadad;stroke: #000000;stroke-linecap:round;stroke-linejoin:round;stroke-width: 0.529 } 
+		.shp1 { fill: #000000 } 
+	</style>
+	<g id="layer1">
+		<path id="path4562" class="shp0" d="M4.89 2.65L2.78 4.5L4.63 7.14L12.04 7.41L10.72 4.23L10.19 4.23L7.81 6.09L7.01 5.82L5.69 2.65L4.89 2.65ZM12.04 9.53L4.63 9.79L2.78 12.44L4.89 14.29L5.69 14.29L7.01 11.11L7.81 10.85L10.19 12.7L10.72 12.7L12.04 9.53Z" />
+		<path id="path4537" class="shp0" d="M2.78 4.5L3.57 8.47L2.78 12.44L7.54 11.11L7.54 8.47L7.54 5.82L2.78 4.5Z" />
+		<path id="path4539" class="shp0" d="M7.54 5.82L7.54 8.47L7.54 11.11L11.51 10.05L11.51 8.47L11.51 6.88L7.54 5.82Z" />
+		<path id="path4543" class="shp0" d="M11.51 6.88L11.51 8.47L11.51 10.05L15.48 9C15.48 9 15.74 9 15.74 8.47C15.74 7.94 15.48 7.94 15.48 7.94L11.51 6.88Z" />
+		<path id="path4535" class="shp0" d="M2.78 4.5C1.46 4.5 1.19 6.09 1.19 8.47C1.19 10.85 1.46 12.44 2.78 12.44C4.12 12.44 4.37 10.58 4.37 8.47C4.37 6.35 4.12 4.5 2.78 4.5Z" />
+		<path id="path4545" class="shp1" d="M2.78 6.88C2.51 6.88 2.51 7.94 2.51 8.47C2.51 9 2.51 10.05 2.78 10.05C3.04 10.05 3.04 9 3.04 8.47C3.04 7.94 3.04 6.88 2.78 6.88Z" />
+	</g>
+</svg>
