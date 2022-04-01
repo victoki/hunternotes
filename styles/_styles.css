@@ -1,0 +1,75 @@
+/* Very basic CSS that is probably going to be recycled a lot for simple projects. */
+/* cannibalized from yet another favorite project */
+body {
+	 font-family: Arial;
+	 background-color: midnightblue;
+	 font-size: 14pt;
+}
+
+main {
+	border: solid 0.07143rem aliceblue;
+	background-color: steelblue;
+	color: white;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	padding-left: 1.429rem;
+	padding-right: 1.429rem;
+	padding-top: 1.071rem;
+	padding-bottom: 1.071rem;
+}
+
+article {
+	border-bottom: 0.07143rem dashed aliceblue;
+	border-top: 0.07143rem dashed aliceblue;
+	text-align: justify;
+	padding-bottom: 0.7143rem;
+	padding-top: 0.3571rem;
+}
+
+h1 {
+	font-weight: bold;
+	text-decoration: uppercase;
+	border-top: 0.07143rem solid aliceblue;
+	border-bottom: 0.07143rem solid aliceblue;
+	text-align: center;
+	background-image: linear-gradient(to right, rgba(72,61,139,0), rgb(72,61,139,1), rgb(72,61,139,1), rgba(72,61,139,0));
+	width: 100%;
+	color: aliceblue;
+}
+
+h2 {
+	font-weight: bold;
+	text-decoration: uppercase;
+	border-top: 0.07143rem solid aliceblue;
+	border-bottom: 0.07143rem solid aliceblue;
+	text-align: center;
+	background-image: linear-gradient(to right, rgba(72,61,139,0), rgb(72,61,139,1), rgb(72,61,139,1), rgba(72,61,139,0));
+	width: 100%;
+	color: aliceblue;
+}
+
+h3 {
+	font-weight: bold;
+	text-decoration: uppercase;
+	border-bottom: 1px solid aliceblue;
+	color: aliceblue;
+	margin-top: 3.5%;
+}
+
+img {
+	display: block;
+	border: 0.07143rem solid aliceblue;
+	width: 25%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.quote {
+	text-align: center;
+	font-style: italic;
+	font-size: 18pt;
+}
+

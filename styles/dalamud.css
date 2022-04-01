@@ -1,0 +1,383 @@
+/* Properties for body - apply to whole page */
+body {
+	 font-family: Arial;
+	 background-color: aliceblue;
+	 background-image: url("img/allagan_tech.png");
+	 background-repeat: no-repeat;
+	 background-size: 102% 110%;
+	 background-attachment: fixed;
+	 font-size: 14pt;
+}
+
+/* This creates a pseudo-centering effect on the page. Other solutions had not been as effective or simple */
+.center_nav {
+	margin-left: 33%;
+}
+
+ /* Navigation bar container */
+.navbar {
+  overflow: hidden;
+  font-family: Arial;
+  /* Gradient across page fades in then fades out. Silver was the test color.
+  background-image: linear-gradient(to right, rgba(192,192,192,0), rgb(192,192,192, 1), rgb(192,192,192,1), rgba(192,192,192,0)); */
+  background-image: linear-gradient(to right, rgba(70,130,180,0), rgb(70,130,180, 1), rgb(70,130,180,1), rgba(70,130,180,0));
+  border-top: 1px solid aliceblue;
+  border-bottom: 1px solid aliceblue;
+}
+
+/* Navigation bar links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white; /* Text color for nav links */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: steelblue;
+}
+
+/* Container for dropdown items */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Turns buttons into menu items - used for initiating the dropdown menus */
+.dropdown .drop_button {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0;
+}
+
+/* Changes background color on navbar for user's mouse hover */
+.navbar a:hover, .dropdown:hover .drop_button {
+  background-color: darkslateblue;
+}
+
+/* Content for dropdowns (default: hidden) */
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 1;
+  
+}
+
+/* Links inside the dropdowns */
+.dropdown_content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  background-color: aliceblue; /* This changes the dropdown background color - nothing else does. */
+}
+
+/* Changes dropdown background on hover over */
+.dropdown_content a:hover {
+  background-color: lightblue;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown_content {
+  display: block;
+}
+
+/* Block for main text content */
+.main_content {
+	border: solid 1px aliceblue;
+	background-color: steelblue;
+	color: white;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+/* Block for the footer bar */
+.footer_bar {
+	text-align: center;
+	/*Silver gradient (original test color)*/
+	/*background-image: linear-gradient(to right, rgba(192,192,192,0), rgb(192,192,192, 1), rgb(192,192,192,1), rgba(192,192,192,0));*/
+	/*steel blue gradient*/
+	background-image: linear-gradient(to right, rgba(70,130,180,0), rgb(70,130,180, 1), rgb(70,130,180,1), rgba(70,130,180,0));
+	margin: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid aliceblue;
+	border-bottom: 1px solid aliceblue;
+	color: white;
+}
+
+/* Block for spoiler box (which contains text to hide) */
+.spoiler_content {
+	display: none;
+	text-align: center;
+	background-color: aliceblue;
+	border-left: 5px dashed black;
+	border-right: 5px dashed black;
+	border-bottom: 5px dashed black;
+	color: black;
+	padding: 20px;
+}
+
+/* Block for the button to toggle spoiler_content */
+.spoiler_button {
+	text-align: center;
+	border: none;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	outline: none;
+	background-image: linear-gradient(to right, rgba(70,130,180,0), rgb(70,130,180, 1), rgb(70,130,180,1), rgba(70,130,180,0));
+	background-color: inherit;
+	width: 100%;
+	padding: 25px;
+	font-size: 18pt;
+}
+
+/* Block for the spoiler stuff container */
+.spoiler_container {
+	text-align: center;
+	background-color: aliceblue;
+	border: 1px solid black;
+	color: black;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+/* Change the button color when mouse hovers over to help show its clickable */
+.spoiler_button:hover {
+		background-image: linear-gradient(to right, rgba(72,61,139,0), rgb(72,61,139,1), rgb(72,61,139,1), rgba(72,61,139,0));
+		
+		color: aliceblue;
+}
+
+h1 {
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: uppercase;
+	border-top: 1px solid aliceblue;
+	border-bottom: 1px solid aliceblue;
+	text-align: center;
+	/*background-image: linear-gradient(to right, rgba(240,248,255,0), rgb(240,248,255, 1), rgb(240,248,255,1), rgba(240,248,255,0)); alice blue*/
+	background-image: linear-gradient(to right, rgba(72,61,139,0), rgb(72,61,139,1), rgb(72,61,139,1), rgba(72,61,139,0));
+	
+	width: 100%;
+	color: aliceblue;
+}
+
+.story_block {
+	border-bottom: 1px dashed aliceblue;
+	border-top: 1px dashed aliceblue;
+	text-align: justify;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+.youtube_video {
+	/* for adding a style fo a video embed */
+	display: inline-block;
+	border: 1px solid aliceblue;
+	margin-left: 20%;
+}
+
+.video_container {
+	background-image: linear-gradient(to right, rgba(240,248,255,0), rgb(240,248,255, 1), rgb(240,248,255,1), rgba(240,248,255,0));
+	background-color: inherit;
+	padding: 5px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.spoiler_video_container {
+	background-image: linear-gradient(to right, rgba(70,130,180,0), rgb(70,130,180, 1), rgb(70,130,180,1), rgba(70,130,180,0));
+	background-color: inherit;
+	padding: 5px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.spoiler_youtube_video {
+	/* for adding a style fo a video embed */
+	display: inline-block;
+	border: 1px solid aliceblue;
+}
+
+h2 {
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: uppercase;
+	border-top: 1px solid aliceblue;
+	border-bottom: 1px solid aliceblue;
+	text-align: center;
+	/*background-image: linear-gradient(to right, rgba(240,248,255,0), rgb(240,248,255, 1), rgb(240,248,255,1), rgba(240,248,255,0)); alice blue*/
+	background-image: linear-gradient(to right, rgba(72,61,139,0), rgb(72,61,139,1), rgb(72,61,139,1), rgba(72,61,139,0));
+	width: 100%;
+	color: aliceblue;
+}
+
+h3 {
+	font-weight: bold;
+	text-decoration: uppercase;
+	border-bottom: 1px solid aliceblue;
+	color: aliceblue;
+	margin-top: 25px;
+}
+
+.img_container {
+	background-image: linear-gradient(to right, rgba(240,248,255,0), rgb(240,248,255, 1), rgb(240,248,255,1), rgba(240,248,255,0));
+	background-color: inherit;
+	padding-top: 5px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.img_container img {
+	display: inline-block;
+	max-width: 560px;
+	height: auto;
+	border: 1px solid white;
+	margin-left: 20%;
+}
+
+.spoiler_img_container {
+	background-image: linear-gradient(to right, rgba(70,130,180,0), rgb(70,130,180, 1), rgb(70,130,180,1), rgba(70,130,180,0));
+	background-color: inherit;
+	padding-top: 5px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.spoiler_img_container img {
+	display: inline-block;
+	max-width: 560px;
+	height: auto;
+	border: 1px solid white;
+	/*margin-left: 20%;*/
+}
+
+.main_content a {
+	color: lightblue;
+	text-decoration: none;
+}
+
+.main_content a:hover {
+	color: darkslateblue;
+	text-decoration: none;
+}
+
+.main_content a:visited {
+	color: lightblue;
+}
+
+.footer_bar a {
+	color: lightblue;
+	text-decoration: none;
+}
+
+.footer_bar a:hover {
+	color: darkslateblue;
+	text-decoration: none;
+}
+
+.footer_bar a:visited {
+	color: lightblue;
+}
+
+table {
+	padding: 5px;
+	border: 1px solid aliceblue;
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+th {
+	text-align: left;
+	border: 1px solid aliceblue;
+	background: darkslateblue;
+	padding: 10px;
+}
+
+td {
+	padding: 10px;
+	border: 1px solid aliceblue;
+}
+
+ul {
+	border: 1px solid aliceblue;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+li {
+	margin: 7px;
+	padding-right: 25px;
+}
+
+
+input[type=text] {
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 15px;
+	margin-top: 5px;
+	box-sizing: border-box;
+	border: 1px solid white;
+	background-color: aliceblue;
+	border-radius: 5px;
+	font-family: "Arial";
+}
+
+input[type=submit] {
+	text-align: center;
+	border: none;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	outline: none;
+	background-image: linear-gradient(to right, rgba(72,61,139,0), rgb(72,61,139,1), rgb(72,61,139,1), rgba(72,61,139,0));
+	background-color: inherit;
+	width: 100%;
+	padding: 25px;
+	font-size: 18pt;
+	color: aliceblue;
+}
+
+input[type=submit]:hover {
+	background-color: inherit;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background-image: linear-gradient(to right, rgba(240,248,255,0), rgb(240,248,255,1), rgb(240,248,255,1), rgba(240,248,255,0));
+	color: black;
+}
+
+input:focus {
+	background-color: lightblue;
+}
+
+textarea {
+	width: 100%;
+	padding: 5px;
+	margin: 3px;
+	box-sizing: border-box;
+	border: 1px solid white;
+	background-color: aliceblue;
+	border-radius: 5px;
+	/**margin-bottom: 20px;**/
+	resize: none;
+	font-family: "Arial";
+}
